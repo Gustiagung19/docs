@@ -6,9 +6,9 @@ import nextra from 'nextra'
 const nextConfig = {
     output: 'export',
     basePath: '/docs',
-    // images: {
-    //     unoptimized: true
-    // },
+    images: {
+        unoptimized: true
+    },
     // Optional: Change the output directory `out` -> `dist`
     // distDir: "build"
 }
